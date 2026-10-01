@@ -1,0 +1,76 @@
+npm install three @react-three/fiber @react-three/drei @react-three/postprocessing gsap lenis "@darkroom.engineering/tempus" "@darkroom.engineering/hamo" zustand @vercel/analytics
+
+Remove-Item -Recurse -Force .next
+
+ const textures = useTexture([
+    '/logos/threejs.webp',
+    '/logos/bug.webp',
+    '/logos/docker.webp',
+    '/logos/git.webp',
+    '/logos/gsap.webp',
+    '/logos/nodejs.webp',
+    '/logos/npm.webp',
+    '/logos/react.webp',
+    '/logos/typescript.webp',
+    '/logos/vscode.webp',
+  ]);
+  const slicedTextures = useTexture([
+    '/logos/sliced/threejsSliced.webp',
+    '/logos/sliced/bugSliced.webp',
+    '/logos/sliced/dockerSliced.webp',
+    '/logos/sliced/gitSliced.webp',
+    '/logos/sliced/gsapSliced.webp',
+    '/logos/sliced/nodejsSliced.webp',
+    '/logos/sliced/npmSliced.webp',
+    '/logos/sliced/reactSliced.webp',
+    '/logos/sliced/typescriptSliced.webp',
+    '/logos/sliced/vscodeSliced.webp',
+  ]);
+
+ <svg className={clsx(styles.linkGraphic)} width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0" />
+                            </svg>
+
+ <svg ref={svgRef} viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.2338 12.28L14.7538 20.8V0.239998H11.3538V20.76L2.87375 12.28L0.59375 14.56L13.0738 27L25.5138 14.56L23.2338 12.28Z" />
+        </svg>
+
+
+const seo = {
+  title: 'Giats - Frontend Developer Portfolio',
+  description:
+    'Self-taught front-end developer from Greece, crafting sleek and efficient web, desktop, and mobile apps. Combining creativity and technical skill to deliver innovative user-centric solutions.',
+  keywords: [
+    'Giats',
+    'Evangelos Giatsidis',
+    'Frontend',
+    'Engineer',
+    'Portfolio',
+    'Web Development',
+    'React Developer',
+    'Developer',
+    'Web Applications',
+    'Responsive Design',
+    'Progressive Web Apps',
+    'Freelance Developer',
+    'Modern Web Development',
+    'cross-platform development',
+    'Greek',
+    'JavaScript',
+    'Typescript',
+    'Next.js',
+    'React',
+    'React Native',
+    'Electron js',
+    'HTML',
+    'CSS',
+  ],
+};
+
+<svg ref={svgRef} width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <rect x="0" y="0" className={styles.mask2} width="100%" height="100.3%" />
+                        <mask id="mask" x="0" y="0">
+                            <rect className={styles.mask1} x="0" y="0" width="100%" height="100.3%" />
+                            {renderRects}
+                        </mask>
+                    </svg>
